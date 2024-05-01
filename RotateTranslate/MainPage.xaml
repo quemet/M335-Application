@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RotateTranslate.MainPage">
+    <VerticalStackLayout Padding="30,0" Spacing="25">
+        
+        <BoxView Margin="0, 30, 0, 0" x:Name="box" Color="Aqua" WidthRequest="150" HeightRequest="150" />
+
+        <HorizontalStackLayout HorizontalOptions="Center" Margin="0, 25, 0, 0">
+            <Label x:Name="lbox" Text="" VerticalTextAlignment="Center" />
+            <Switch IsToggled="False" Toggled="Switch_Toggled" x:Name="tog" />
+        </HorizontalStackLayout>
+        
+        <HorizontalStackLayout HorizontalOptions="Center" Margin="0, 25, 0, 0">
+            <Button Text="&lt;&lt;" Clicked="Button_Clicked"/>
+            <Button Text=">>" />
+        </HorizontalStackLayout>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+            <Label Text="Vitesse" />
+            <Slider x:Name="slider" WidthRequest="150" Value="1" Minimum="1" Maximum="500" />
+        </StackLayout>
+    </VerticalStackLayout>
+
+</ContentPage>

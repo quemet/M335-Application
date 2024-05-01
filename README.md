@@ -12,6 +12,6 @@
 
 ## But de ce repository
 
-Le but de ce repo GitHub est de stocker tout les exircices fait durant le Module 335 ou nous apprenons à faire le MAUI.
+Le but de ce repo GitHub est de stocker tout les exercices fait durant le Module 335 ou nous apprenons à faire le MAUI.
 
 [Documentation oficiel de MAUI](https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui?view=net-maui-8.0)

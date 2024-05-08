@@ -13,11 +13,11 @@
         
         <HorizontalStackLayout HorizontalOptions="Center" Margin="0, 25, 0, 0">
             <Button Text="&lt;&lt;" Clicked="Button_Clicked"/>
-            <Button Text=">>" />
+            <Button Text=">>" Clicked="Button_Clicked_1"/>
         </HorizontalStackLayout>
 
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-            <Label Text="Vitesse" />
+            <Label Text="Vitesse" x:Name="lblslider" />
             <Slider x:Name="slider" WidthRequest="150" Value="1" Minimum="1" Maximum="500" />
         </StackLayout>
     </VerticalStackLayout>

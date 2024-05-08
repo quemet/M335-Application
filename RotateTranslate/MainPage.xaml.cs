@@ -11,6 +11,8 @@
             slider.Value = speed;
 
             lbox.Text = label;
+			
+			lblslider.Text = "Speed " + speed
         }
 
         private void Switch_Toggled(object sender, ToggledEventArgs e)
@@ -28,7 +30,14 @@
 
         private void Button_Clicked(object sender, EventArgs e)
         {
-            this.box.TranslateTo(box.X, box.Y);
+            speed = (int)slider.Value;
+            this.box.TranslateTo(X - speed, Y);
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            speed = (int)slider.Value;
+            this.box.TranslateTo(X + speed, Y);
         }
     }
 

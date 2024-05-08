@@ -14,8 +14,16 @@
 
 Le but de ce repo GitHub est de stocker tout les exercices fait durant le Module 335 ou nous apprenons à faire le MAUI.
 
-[Documentation oficiel de MAUI](https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui?view=net-maui-8.0)
+[Documentation officiel de MAUI](https://learn.microsoft.com/en-us/dotnet/maui/what-is-maui?view=net-maui-8.0)
 
 ## Sommaire
 
-
+* [Exercice sur les voeux](https://github.com/quemet/M335-Application/tree/main/CRUD)
+* [Execice sur les flyouts](https://github.com/quemet/M335-Application/tree/main/Flyout)
+* [Exercice d'introduction à MAUI](https://github.com/quemet/M335-Application/tree/main/HelloMaui1)
+* [Exercice animation avec MVVM](https://github.com/quemet/M335-Application/tree/main/MVVM-RotateTranslate)
+* [Exercice sur MVVM](https://github.com/quemet/M335-Application/tree/main/MVVM)
+* [Exercice avec la Navigation](https://github.com/quemet/M335-Application/tree/main/NavigationPushPop)
+* [Exercice animation](https://github.com/quemet/M335-Application/tree/main/RotateTranslate)
+* [Exercice sur les Tabbed](https://github.com/quemet/M335-Application/tree/main/Tabbed)
+* [Exercie dessin](https://github.com/quemet/M335-Application/tree/main/YeuxDents)

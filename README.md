@@ -27,3 +27,4 @@ Le but de ce repo GitHub est de stocker tout les exercices fait durant le Module
 * [Exercice animation](https://github.com/quemet/M335-Application/tree/main/RotateTranslate)
 * [Exercice sur les Tabbed](https://github.com/quemet/M335-Application/tree/main/Tabbed)
 * [Exercie dessin](https://github.com/quemet/M335-Application/tree/main/YeuxDents)
+* [Exercie sur les capteurs](https://github.com/quemet/M335-Application/tree/main/Capteurs)
